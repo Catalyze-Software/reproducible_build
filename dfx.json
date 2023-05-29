@@ -1,0 +1,10 @@
+{
+    "canisters": {
+      "parent": {
+        "type": "custom",
+        "package": "parent",
+        "candid": "sns_groups/candid/parent.did",
+        "wasm": "sns_groups/wasm/parent.wasm.gz"
+      }
+    }
+  }
