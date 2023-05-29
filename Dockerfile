@@ -27,6 +27,8 @@ RUN apt-get update && \
 WORKDIR /
 COPY _test_environment/. ./
 COPY dfx.json .
-COPY Cargo.toml .
 COPY start.sh .
+
+EXPOSE 4943 37039
+
 CMD ["/bin/bash","-c","./start.sh"]
