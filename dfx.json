@@ -3,38 +3,38 @@
       "sns_event_attendees": {
         "type": "custom",
         "package": "sns_event_attendees",
-        "candid": "sns_event_attendees/candid/parent.did",
-        "wasm": "sns_event_attendees/wasm/parent.wasm.gz"
+        "candid": "_test_environment/sns_event_attendees/candid/parent.did",
+        "wasm": "_test_environment/sns_event_attendees/wasm/parent.wasm.gz"
       },
       "sns_events": {
         "type": "custom",
         "package": "sns_events",
-        "candid": "sns_events/candid/parent.did",
-        "wasm": "sns_events/wasm/parent.wasm.gz"
+        "candid": "_test_environment/sns_events/candid/parent.did",
+        "wasm": "_test_environment/sns_events/wasm/parent.wasm.gz"
       },
       "sns_groups": {
         "type": "custom",
         "package": "sns_groups",
-        "candid": "sns_groups/candid/parent.did",
-        "wasm": "sns_groups/wasm/parent.wasm.gz"
+        "candid": "_test_environment/sns_groups/candid/parent.did",
+        "wasm": "_test_environment/sns_groups/wasm/parent.wasm.gz"
       },
       "sns_members": {
         "type": "custom",
         "package": "sns_members",
-        "candid": "sns_members/candid/parent.did",
-        "wasm": "sns_members/wasm/parent.wasm.gz"
+        "candid": "_test_environment/sns_members/candid/parent.did",
+        "wasm": "_test_environment/sns_members/wasm/parent.wasm.gz"
       },
       "sns_profiles": {
         "type": "custom",
         "package": "sns_profiles",
-        "candid": "sns_profiles/candid/parent.did",
-        "wasm": "sns_profiles/wasm/parent.wasm.gz"
+        "candid": "_test_environment/sns_profiles/candid/parent.did",
+        "wasm": "_test_environment/sns_profiles/wasm/parent.wasm.gz"
       },
       "sns_reports": {
         "type": "custom",
         "package": "sns_reports",
-        "candid": "sns_reports/candid/parent.did",
-        "wasm": "sns_reports/wasm/parent.wasm.gz"
+        "candid": "_test_environment/sns_reports/candid/parent.did",
+        "wasm": "_test_environment/sns_reports/wasm/parent.wasm.gz"
       }
     }
   }
