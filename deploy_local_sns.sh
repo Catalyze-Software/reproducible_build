@@ -38,7 +38,7 @@ mv "${DFX_NET_JSON}.tmp" "$DFX_NET_JSON" 2>/dev/null  # restore original config 
 cd sns-testing
 
 ./setup_locally.sh
-./run_basic_scenario.sh
+#./run_basic_scenario.sh
 
 cd ..
 
@@ -78,5 +78,9 @@ echo $(readJsonConfig ".sns_reports.local")
 ./register_dapp.sh $(readJsonConfig ".sns_members.local")
 ./register_dapp.sh $(readJsonConfig ".sns_profiles.local")
 ./register_dapp.sh $(readJsonConfig ".sns_reports.local")
+
+./open_sns_sale.sh
+./participate_sns_sale.sh 3 200
+./finalize_sns_sale.sh
 
 #./cleanup.sh
