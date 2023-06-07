@@ -80,7 +80,7 @@ echo $(readJsonConfig ".sns_reports.local")
 ./register_dapp.sh $(readJsonConfig ".sns_reports.local")
 
 ./open_sns_sale.sh
-./participate_sns_sale.sh 3 200
-./finalize_sns_sale.sh
+./participate_sns_sale.sh 2 200
+#./finalize_sns_sale.sh
 
 #./cleanup.sh
