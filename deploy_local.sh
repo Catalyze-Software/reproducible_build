@@ -7,8 +7,8 @@ then
     sh -ci "$(curl -fsSL https://sdk.dfinity.org/install.sh)"
 fi
 
-#dfx stop
-#dfx start --background --clean
+dfx stop
+dfx start --background --clean
 
 dfx deploy sns_event_attendees
 dfx deploy sns_events
